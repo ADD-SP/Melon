@@ -41,7 +41,7 @@ module.exports = {
                         title: "Reference",
                         path: "/reference/",
                         children: [
-                            "/reference/structure.md"
+                            "/reference/string.md"
                         ]
                     }
                 ]
