@@ -1,0 +1,15 @@
+{
+  "name": "melon",
+  "version": "1.0.0",
+  "repository": "git@github.com:Water-Melon/Melon.git",
+  "author": "Niklaus F.Schen <Melon-c@hotmail.com >",
+  "license": "BSD-3-Clause",
+  "devDependencies": {
+    "vuepress": "^1.8.2",
+    "vuepress-plugin-fulltext-search": "^2.1.0"
+  },
+  "scripts": {
+    "docs:dev": "npx vuepress dev doc",
+    "docs:build": "npx vuepress build doc"
+  }
+}
