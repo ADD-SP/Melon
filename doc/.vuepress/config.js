@@ -30,18 +30,23 @@ module.exports = {
                 sidebar: [
                     {
                         title: "Quick Start",
-                        path: "/guide/",
                         children: [
                             "/guide/overview.md",
                             "/guide/installation.md",
+                            "/guide/example.md",
                             "/guide/type.md"
                         ]
                     },
                     {
                         title: "Reference",
-                        path: "/reference/",
                         children: [
-                            "/reference/string.md"
+                            {
+                                title: "Data Structure",
+                                children: [
+                                    "/reference/string.md"
+                                ]
+                            }
+                            
                         ]
                     }
                 ]
