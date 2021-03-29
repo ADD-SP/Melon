@@ -56,7 +56,31 @@ module.exports = {
                 label: "简体中文",
                 lastUpdated: "最后一次更新",
                 editLinkText: "帮助我们改善此页面！",
-                sidebar: []
+                sidebar: [
+                    {
+                        title: "快速上手",
+                        children: [
+                            "/zh-cn/guide/overview.md",
+                            "/zh-cn/guide/installation.md",
+                            "/zh-cn/guide/configuration.md",
+                            "/zh-cn/guide/initialization.md",
+                            "/zh-cn/guide/example.md",
+                        ]
+                    },
+                    {
+                        title: "参考",
+                        children: [
+                            {
+                                title: "数据结构",
+                                children: [
+                                    "/zh-cn/reference/data-structure/hash.md",
+                                    "/zh-cn/reference/data-structure/prime.md",
+                                    "/zh-cn/reference/data-structure/log.md"
+                                ]
+                            }
+                        ]
+                    }
+                ]
             }
         }
     }
